@@ -67,7 +67,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Ayurvedic formulation predictor System</h1>
+        <h1>Ayurvedic formulation prediction System</h1>
         <p>Select your symptoms to get a diagnosis and remedies</p>
       </header>
 
