@@ -67,7 +67,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Medical Diagnosis System</h1>
+        <h1>Ayurvedic formulation predictor System</h1>
         <p>Select your symptoms to get a diagnosis and remedies</p>
       </header>
 
@@ -130,6 +130,9 @@ function App() {
                   <li key={index}><a href={link} target="_blank" rel="noopener noreferrer"> LINK FOR {diagnosis.herbs?.[index] }</a></li>
                 )) || <li>No Links Available</li>}
               </ul>
+                <p style={{ color: "red", fontSize: "0.9rem", marginTop: "10px" }}>
+                <strong>Disclaimer:</strong> This information is not a substitute for professional medical advice. Please consult a doctor before using any herbs or treatments.
+                </p>
             </div>
 
             <button onClick={resetForm} className="back-button">Start Over</button>
