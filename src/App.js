@@ -68,7 +68,7 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1> SwasthaAI </h1>
-        <p>Select your symptoms to get a diagnosis and remedies</p>
+        <p> Select your symptoms to uncover potential health issues and Ayurvedic solutions</p>
       </header>
 
       <main className="app-main">
